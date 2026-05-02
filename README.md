@@ -1,16 +1,45 @@
-# React + Vite
+# VYBE | Premium Audio Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![VYBE Hero](src/assets/hero.png)
 
-Currently, two official plugins are available:
+VYBE is a high-performance, immersive audio visualizer built with React, Three.js, and GLSL. It transforms microphone input into stunning, real-time 3D and 2D visual experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Liquid Glass UI**: A modern, premium interface with glassmorphism effects.
+- **Dynamic Shaders**: Multiple visual presets including Kaleidoscope, Cymatics, Aurora, and more.
+- **Microphone Integration**: Real-time audio processing with zero persistence.
+- **Responsive Design**: Optimized for Desktop, iPad, and iPhone.
+- **Premium Aesthetics**: Curated color palettes and smooth animations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React 19](https://reactjs.org/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **3D Engine**: [Three.js](https://threejs.org/) / [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/audioviz.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📜 License
+MIT License. Feel free to use and modify for your own projects!
+
