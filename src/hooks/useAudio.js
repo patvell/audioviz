@@ -2,6 +2,7 @@ export const audioData = {
   lows: 0,
   mids: 0,
   highs: 0,
+  volume: 0,
 };
 
 let audioCtx = null;
